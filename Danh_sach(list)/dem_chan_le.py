@@ -1,0 +1,5 @@
+danh_sach=list(int(x) for x in input("Nhập vào các số nguyên: ").split())
+dem_chan=sum(1 for x in danh_sach if x%2==0)
+dem_le=sum(1 for x in danh_sach if x%2!=0)
+print(f"Số lượng số chẵn là: {dem_chan}")
+print(f"Số lượng số lẻ là: {dem_le}")
